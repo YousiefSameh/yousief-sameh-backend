@@ -1,14 +1,17 @@
 {
   "name": "yousiefsameh-backend",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx nodemon src/app.js",
-    "start": "node app.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
+  "engines": {
+    "node": "20.17.0"
+  },
   "license": "ISC",
   "description": "",
   "dependencies": {

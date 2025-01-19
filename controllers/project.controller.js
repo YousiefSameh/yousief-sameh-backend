@@ -1,6 +1,6 @@
 const Project = require('../models/project.model');
-const cloudinary = require('../../config/cloudinary');
-const upload = require('../../config/multer');
+const cloudinary = require('../config/cloudinary');
+const upload = require('../config/multer');
 
 // Create Project
 exports.addProject = async (req, res) => {
