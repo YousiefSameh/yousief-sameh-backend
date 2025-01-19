@@ -13,7 +13,7 @@ const blogSchema = new mongoose.Schema({
         ar: { type: String, required: true },
         en: { type: String, required: true },
     },
-    publishedDate: { type: Date, required: true },
+    publishedDate: { type: String, required: true },
 }, { timestamps: true });
 
 const Blog = mongoose.model('Blog', blogSchema);
