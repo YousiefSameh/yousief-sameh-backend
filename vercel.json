@@ -2,5 +2,5 @@
 	"version": 2,
 	"builds": [{ "src": "index.js", "use": "@vercel/node" }],
 	"routes": [{ "src": "/(.*)", "dest": "index.js" }],
-	"functions": {"./.js*": {"maxDuration": 100 }}
+	"functions": {"./.js*": {"maxDuration": 10000000 }}
 }
